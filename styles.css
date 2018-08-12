@@ -1,8 +1,8 @@
 /* Global Layout Set-up */
-* { 
+* {
   box-sizing: border-box;
 }
-  
+
 body {
   margin: 0;
   padding: 0;
@@ -83,7 +83,7 @@ header .profile-image:hover {
   border-radius: 5px;
   display: table;
   margin: 10px auto;
-} 
+}
 .location {
   background-color: #222;
   color: yellow;
@@ -120,26 +120,6 @@ ul.skills {
   background: #0399ff;
 }
 
-footer {
-  width: 100%;
-  min-height: 30px;
-  padding: 20px 0 40px 20px;
-}
-
-footer .copyright {
-  top: -8px;
-  font-size: .75em;
-}
-
-footer ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-footer ul li {
-  display: inline-block;
-}
 
 a.social {
   display: inline-block;
@@ -169,10 +149,10 @@ a.social:hover {
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
-  
+
   .flex {
       display: -ms-flexbox;      /* TWEENER - IE 10 */
-      display: flex; 
+      display: flex;
       max-width: 1200px;
       -ms-flex-pack: distribute;
       justify-content: space-around;
@@ -198,10 +178,30 @@ a.social:hover {
   }
 
   footer {
+  width: 100%;
+  min-height: 30px;
+  padding: 20px 0 40px 20px;
+}
+
+footer .copyright {
+  top: -8px;
+  font-size: .75em;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline-block;
+}
+
+  footer {
     font-size: 1.3em;
     max-width: 1200px;
     margin: 40px auto;
   }
 
 }
-
